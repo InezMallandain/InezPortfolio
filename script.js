@@ -29,19 +29,7 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: [ "Developer", "Engineer", "Designer", "Hardworker"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-    var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
