@@ -540,6 +540,18 @@ section .title::after {
   color: rgb(188, 144, 218);
   background: none;
 }
+
+.info > a {
+  color: rgb(188, 144, 218);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-white:hover {
+  color: lightgrey;
+}
 /* footer section styling */
 footer {
   background: #111;
