@@ -12,12 +12,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
+    <nav class="header-nav">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
@@ -132,7 +137,7 @@
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>I have a large variety of skills and take great pride in my work. My skill base grows annually and my passionn for software continues to thrive. Below is a list of languages I am able to work with:
-                        Javascript,Html/CSS,SCSS/SASS,Node.js/Express.js,Docker,AWS S3 and AWS Cloudfront,React & Vue.js,Ionic,git,/GitHub,Typescript.
+                        Javascript, Html/CSS, SCSS/SASS, Node.js/Express.js, Docker, AWS S3 and AWS Cloudfront, React & Vue.js, Ionic, git, GitHub, Typescript.
                         
                     </p>
                     <a href="#">Read more</a>
@@ -245,6 +250,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="icons">
+
+                   
                     <div class="row">
                         <i class="fas fa-laptop"></i>
                         <div class="info">
@@ -266,26 +274,27 @@
                             <div class="sub-title">063 369 6551</div>
                         </div>
                 </div>
-                </div>
+            </div>
+        </div>
             
                 
-
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/inezvmallandain@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" name="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -299,6 +308,25 @@
     <footer>
         <span>Created By Inez Mallandain </a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-confirm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="icon-box">
+                <i class="material-icons">&#xE876;</i>
+              </div>
+              <h4 class="modal-title w-100">Awesome!</h4>
+            </div>
+            <div class="modal-body">
+              <p class="text-center">Your email has succesfully been sent.</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="script.js"></script>
 </body>
 </html>
